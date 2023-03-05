@@ -52,7 +52,7 @@ export default function HAbout() {
 
                         <img
                             src="/w-logo.jpg"
-                            className="hidden lg:block absolute right-10 bottom-5"
+                            className="hidden lg:block absolute right-10 bottom-20 z-10 h-[400px]"
                         />
                     </div>
 
