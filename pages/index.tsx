@@ -3,6 +3,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import DefaultLayout from '../components/DefaultLayout'
 import styles from '../styles/Home.module.css'
+import HAbout from './HAbout'
+import HEvents from './HEvents'
 
 const Home: NextPage = () => {
   return (
@@ -13,7 +15,17 @@ const Home: NextPage = () => {
 
       THIS IS AN ELMO SONG 
     </div>
+
+
+
+    <div>
+      <HEvents/>
+    </div>
     
+
+    <div>
+      <HAbout/>
+    </div>
     </>
    </DefaultLayout>
   )
