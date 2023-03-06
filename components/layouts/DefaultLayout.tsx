@@ -4,8 +4,8 @@ import NavBar from "../navigations/NavBar";
 
 function DefaultLayout({ children }: { children?: JSX.Element }) {
     return (
-        <div className="w-full gap-y-10 ">
-            <div className="bg-green-500 w-full overscroll-x-auto  ">
+        <div className="w-full">
+            <div className="bg-green-500 w-full overscroll-x-auto">
                 <NavBar />
 
                 <div className="bg-white w-full">
