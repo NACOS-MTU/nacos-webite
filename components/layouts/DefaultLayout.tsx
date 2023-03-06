@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
-import NavBar from "./NavBar";
+import NavBar from "../navigations/NavBar";
 
 function DefaultLayout({ children }: { children?: JSX.Element }) {
     return (

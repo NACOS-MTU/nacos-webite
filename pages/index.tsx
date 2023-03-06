@@ -1,10 +1,10 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
-import DefaultLayout from "../components/DefaultLayout";
+import DefaultLayout from "../components/layouts/DefaultLayout";
 import styles from "../styles/Home.module.css";
-import HAbout from "./HAbout";
-import HEvents from "./HEvents";
+import HAbout from "../components/sections/HAbout";
+import HEvents from "../components/sections/HEvents";
 
 const Home: NextPage = () => {
     return (
