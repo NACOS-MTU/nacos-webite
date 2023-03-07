@@ -20,11 +20,11 @@ export default function HEvents() {
 
             {/* this is the cards section  */}
             <div className="grid grid-cols-1 lg:grid-cols-3 items-center mt-10 lg:space-x-10">
-                <HEventCard subTitle="we organize seminars on physical ans theoretical aspects of computing" title="Seminars / BootCamps" uLink="/" icon=<AiFillBook color="white" /> />
+                <HEventCard subTitle="we organize seminars on physical ans theoretical aspects of computing" title="Seminars / BootCamps" uLink="/" icon={<AiFillBook color="white" />} />
 
-                <HEventCard subTitle="We organize hackathon and competitions for computing students" title="Hackathon" uLink="/Hackathon" icon=<BsAwardFill color="white" /> />
+                <HEventCard subTitle="We organize hackathon and competitions for computing students" title="Hackathon" uLink="/Hackathon" icon={<BsAwardFill color="white" />} />
 
-                <HEventCard subTitle="A full Week dedicated for computing students in Mountain Top University" title="Nacos Week" uLink="/" icon=<MdOutlineComputer color="white" /> />
+                <HEventCard subTitle="A full Week dedicated for computing students in Mountain Top University" title="Nacos Week" uLink="/" icon={<MdOutlineComputer color="white" />} />
             </div>
         </div>
     );
