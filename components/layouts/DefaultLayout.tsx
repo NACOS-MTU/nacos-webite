@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 import NavBar from "../navigations/NavBar";
+import SimpleFooter from "../footer/Simple-Footer";
 
 function DefaultLayout({ children }: { children?: JSX.Element }) {
     return (
@@ -19,6 +20,7 @@ function DefaultLayout({ children }: { children?: JSX.Element }) {
                         {children}
                     </main>
                 </div>
+                <SimpleFooter />
             </div>
         </div>
     );

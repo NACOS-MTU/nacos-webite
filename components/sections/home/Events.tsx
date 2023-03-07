@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { BsAwardFill } from "react-icons/bs";
-import HEventCard from "../cards/HEventCard";
+import HEventCard from "../../cards/HEventCard";
 import { MdOutlineComputer } from "react-icons/md";
 import { AiFillBook } from "react-icons/ai";
 

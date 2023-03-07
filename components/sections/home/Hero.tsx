@@ -1,6 +1,6 @@
 import { BsTelephoneFill } from "react-icons/bs";
 import { HiMailOpen } from "react-icons/hi";
-import NavBar from "../navigations/NavBar";
+import NavBar from "../../navigations/NavBar";
 
 // this is for the hero section on the home page
 export default function HeroSection() {
