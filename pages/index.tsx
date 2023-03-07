@@ -12,14 +12,8 @@ const Home: NextPage = () => {
         <DefaultLayout>
             <>
                 <Hero />
-
-                <div>
-                    <HEvents />
-                </div>
-
-                <div>
-                    <HAbout />
-                </div>
+                <HEvents />
+                <HAbout />
             </>
         </DefaultLayout>
     );

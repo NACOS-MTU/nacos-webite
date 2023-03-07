@@ -1,43 +1,68 @@
+import React from "react";
+import Image from "next/image";
+import logo_trans from "../../public/logo.svg";
+
 import Link from "next/link";
-import { useState } from "react";
+import { useRouter } from "next/router";
 
-export default function NavBar() {
-    const [active, setActive] = useState(false);
+const MainNav = () => {
+    const router = useRouter();
 
-    const handleClick = () => {
-        setActive(!active);
-    };
+    const [mobileClicked, setMobileClicked] = React.useState(false);
 
     return (
         <>
-            <nav className="flex items-center flex-wrap bg-green-800 sticky p-3 top-0 z-50 ">
-                <Link href="/">
-                    <a className="inline-flex items-center p-2 mr-4 ">
-                        <img src="/logo.svg" alt="Logo" className="w-20" />
-                    </a>
-                </Link>
+            <nav className="shadow-md">
+                <div className="flex items-center justify-between px-5 md:px-10 lg:px-20 py-2 mx-auto">
+                    <Link href="/" passHref>
+                        <div className="w-16 h-16">
+                            <Image src={logo_trans} alt="logo" />
+                        </div>
+                    </Link>
 
-                <button className=" inline-flex p-3 hover:primaryColour rounded lg:hidden text-white ml-auto hover:text-white outline-none" onClick={handleClick}>
-                    <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-                    </svg>
-                </button>
-
-                {/*Note that in this div we will use a ternary operator to decide whether or not to display the content of the div  */}
-                <div className={`${active ? "" : "hidden"}   w-full lg:inline-flex lg:flex-grow lg:w-auto`}>
-                    <div className="lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto">
-                        <Link href="/">
-                            <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-white hover:text-green-800 ">
-                                Home
-                                </a>
-                        </Link>
-
-                        <Link href="/Hackathon">
-                            <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-white hover:text-green-800 ">Hackathon</a>
-                        </Link>
+                    {/* Nav links */}
+                    <div className="hidden md:inline-flex md:space-x-6 lg:space-x-10 md:items-center">
+                        <div className="flex md:space-x-4 lg:space-x-6">
+                            <Link href="/" passHref>
+                                <p className="cursor-pointer py-2 px-4 ring-2 rounded-sm ring-primary hover:ring-secondary">Home</p>
+                            </Link>
+                            <Link href="/hackathon" passHref>
+                                <p className="cursor-pointer py-2 px-4 bg-primary hover:bg-secondary text-white rounded-sm ring-2 ring-primary hover:ring-secondary">2023 Hackathon</p>
+                            </Link>
+                        </div>
                     </div>
+
+                    {/* Mobile Nav Text */}
+                    <Link href="/" passHref>
+                        <h1 className="font-WorkSans md:hidden text-xl hover:text-secondary font-bold tracking-wider text-primary">NACOS</h1>
+                    </Link>
+
+                    {/* Mobile Nav Button */}
+                    <div className="md:hidden flex items-center">
+                        <button onClick={() => setMobileClicked(!mobileClicked)} className="mobile-menu-button">
+                            <svg className="w-7 h-7" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+
+                {/* Mobile Nav Links */}
+                <div className={mobileClicked ? "mobile-menu md:hidden" : "mobile-menu hidden md:hidden"}>
+                    <a onClick={() => setMobileClicked(false)}>
+                        <Link href="/" passHref>
+                            <p className="block py-2 px-4 text-m hover:bg-primary hover:text-white">Home</p>
+                        </Link>
+                    </a>
+                    <a onClick={() => setMobileClicked(false)}>
+                        <Link href="/hackathon" passHref>
+                            <p className="block py-2 px-4 text-m hover:bg-primary hover:text-white">Hackathon</p>
+                        </Link>
+                    </a>
                 </div>
             </nav>
         </>
     );
-}
+};
+
+export default MainNav;

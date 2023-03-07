@@ -12,12 +12,12 @@ type CardProps = {
 export default function HEventCard(props: CardProps) {
     return (
         <>
-            <div className=" text-justify hover:cursor-pointer  hover:bg-green-700 ml-5 rounded-md ">
+            <div className="text-justify hover:cursor-pointer ml-5 rounded-md hover:bg-primary/50 p-6">
                 <Link href={props.uLink}>
-                    <div className="hover:text-white">
-                        <div className="bg-green-400 w-10 h-10 flex items-center px-3 mx-5">{props.icon}</div>
+                    <div className="">
+                        <div className="bg-primary rounded-sm w-12 h-12 flex items-center px-3 mx-5 text-6xl">{props.icon}</div>
 
-                        <div className=" text-black font-bold  text-lg pt-2  ">{props.title}</div>
+                        <div className="font-bold font-Sora text-black text-xl mt-3 mb-1">{props.title}</div>
 
                         <div className="text-gray-600 text-sm pb-5">{props.subTitle}</div>
                     </div>
