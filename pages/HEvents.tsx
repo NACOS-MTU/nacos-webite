@@ -47,7 +47,7 @@ export default function HEvents() {
                 <HEventCard
                     subTitle="We organise hackathons and competitions for computing students  "
                     title="Hackathons"
-                    uLink="/"
+                    uLink="/Hackathon"
                     icon=<BsAwardFill
                     color="white"
                     />
