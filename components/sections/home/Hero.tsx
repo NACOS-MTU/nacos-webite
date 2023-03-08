@@ -5,7 +5,7 @@ import NavBar from "../../navigations/NavBar";
 // this is for the hero section on the home page
 export default function HeroSection() {
     return (
-        <>
+        <div>
             <div className="flex justify-center items-center min-h-screen w-full bg-heroBg bg-black/60 bg-blend-overlay">
                 <div className="text-white text-center">
                     <h1 className="font-bold text-3xl md:text-4xl lg:text-5xl">This content is centered both horizontally and vertically</h1>
@@ -25,6 +25,6 @@ export default function HeroSection() {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     );
 }

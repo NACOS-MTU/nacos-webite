@@ -4,7 +4,7 @@ import HEventCard from "../../cards/HEventCard";
 import { MdOutlineComputer } from "react-icons/md";
 import { AiFillBook } from "react-icons/ai";
 
-export default function HEvents() {
+export default function Events() {
     const events = [
         { title: "Seminars / BootCamps", subTitle: "we organize seminars on physical ans theoretical aspects of computing", uLink: "/", icon: "AiFillBook" },
         { title: "Hackathon", subTitle: "We organize hackathon and competitions for computing students", uLink: "/Hackathon", icon: "BsAwardFill" },
