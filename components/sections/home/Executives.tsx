@@ -3,12 +3,12 @@ import user from "../../../public/user.png";
 
 export default function Executives() {
     const executives = [
-        { name: "Johnny Knoxville", position: "President", image: user },
-        { name: "Johnny Knoxville", position: "President", image: user },
-        { name: "Johnny Knoxville", position: "President", image: user },
-        { name: "Johnny Knoxville", position: "President", image: user },
-        { name: "Johnny Knoxville", position: "President", image: user },
-        { name: "Johnny Knoxville", position: "President", image: user }
+        { name: "Johnny Knoxville", position: "President", image: user, link: "https://example.com" },
+        { name: "Johnny Knoxville", position: "President", image: user, link: "https://example.com" },
+        { name: "Johnny Knoxville", position: "President", image: user, link: "https://example.com" },
+        { name: "Johnny Knoxville", position: "President", image: user, link: "https://example.com" },
+        { name: "Johnny Knoxville", position: "President", image: user, link: "https://example.com" },
+        { name: "Johnny Knoxville", position: "President", image: user, link: "https://example.com" }
     ];
 
     return (
@@ -25,8 +25,10 @@ export default function Executives() {
                             <div className="w-1/2 overflow-hidden">
                                 <Image className="rounded-sm" src={executive.image} alt={executive.name} />
                             </div>
-                            <div className="w-1/2 break-words">
-                                <h1 className="font-Sora font-bold text-lg">{executive.name}</h1>
+                            <div className="w-1/2 break-words text-left">
+                                <a href={executive.link} target="_blank" rel="noopener noreferrer" className="underline font-Sora font-bold text-lg">
+                                    {executive.name}
+                                </a>
                                 <p>{executive.position}</p>
                             </div>
                         </div>
