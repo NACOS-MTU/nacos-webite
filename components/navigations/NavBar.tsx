@@ -26,7 +26,7 @@ const MainNav = () => {
                             <Link href="/" passHref>
                                 <p className="cursor-pointer py-2 px-4 ring-2 rounded-sm ring-primary hover:ring-secondary">Home</p>
                             </Link>
-                            <Link href="/hackathon" passHref>
+                            <Link href="/hackathon/2023" passHref>
                                 <p className="cursor-pointer py-2 px-4 bg-primary hover:bg-secondary text-white rounded-sm ring-2 ring-primary hover:ring-secondary">2023 Hackathon</p>
                             </Link>
                         </div>
@@ -55,7 +55,7 @@ const MainNav = () => {
                         </Link>
                     </a>
                     <a onClick={() => setMobileClicked(false)}>
-                        <Link href="/hackathon" passHref>
+                        <Link href="/hackathon/2023" passHref>
                             <p className="block py-2 px-4 text-m hover:bg-primary hover:text-white">Hackathon</p>
                         </Link>
                     </a>
