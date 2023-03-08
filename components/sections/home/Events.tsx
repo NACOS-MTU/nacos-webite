@@ -5,7 +5,7 @@ import { AiFillBook } from "react-icons/ai";
 
 export default function Events() {
     const events = [
-        { title: "Seminars / BootCamps", subTitle: "we organize seminars on physical ans theoretical aspects of computing", uLink: "/", icon: "AiFillBook" },
+        { title: "Seminars / BootCamps", subTitle: "We organize seminars on physical ans theoretical aspects of computing", uLink: "/", icon: "AiFillBook" },
         { title: "Hackathon", subTitle: "We organize hackathon and competitions for computing students", uLink: "/Hackathon", icon: "BsAwardFill" },
         { title: "Nacos Week", subTitle: "A full Week dedicated for computing students in Mountain Top University", uLink: "/", icon: "MdOutlineComputer" }
     ];
@@ -22,15 +22,15 @@ export default function Events() {
                     <div key={index} className="text-justify hover:cursor-pointer ml-5 rounded-md hover:bg-primary/50 p-6">
                         <Link href={event.uLink}>
                             <div>
-                                <div className="bg-primary rounded-sm w-12 h-12 flex items-center px-3 mx-5 text-6xl">
+                                <div className="bg-primary rounded-sm w-16 h-16 flex items-center px-3 text-6xl">
                                     {event.icon === "AiFillBook" && <AiFillBook color="white" />}
                                     {event.icon === "BsAwardFill" && <BsAwardFill color="white" />}
                                     {event.icon === "MdOutlineComputer" && <MdOutlineComputer color="white" />}
                                 </div>
 
-                                <div className="font-bold font-Sora text-black text-xl mt-3 mb-1">{event.title}</div>
+                                <div className="font-bold font-Sora text-black text-xl mt-6 tracking-wider mb-1">{event.title}</div>
 
-                                <div className="text-gray-600 text-sm pb-5">{event.subTitle}</div>
+                                <div className="text-gray-600 text-justify">{event.subTitle}</div>
                             </div>
                         </Link>
                     </div>
