@@ -32,7 +32,7 @@ export default function Faq() {
     ];
 
     return (
-        <div className="mx-12 mt-16">
+        <div className="mx-12 mt-16 mb-10">
             <div className="text-center">
                 <h1 className="font-bold font-Sora text-2xl md:text-3xl lg:text-4xl tracking-wider">Frequently Asked Questions</h1>
             </div>
