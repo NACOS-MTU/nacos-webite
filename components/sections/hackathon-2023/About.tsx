@@ -1,38 +1,26 @@
-import QAHack from "../../cards/QAHack";
-
 export default function About() {
+    const aboutData = [
+        { title: "What", subTitle: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod." },
+        { title: "When", subTitle: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod." },
+        { title: "Who", subTitle: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod." },
+        { title: "Why", subTitle: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod." },
+        { title: "Where", subTitle: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod." }
+    ];
+
     return (
-        <div className="flex justify-center items-center mx-5">
-            <div className="text-black text-center">
-                <h1 className="font-bold text-3xl md:text-4xl lg:text-5xl text-green-800">About </h1>
-                <p className="mt-3 text-lg">isonvsuvbvnovnwuvwvjwinownovw slvnsvonvnuvwnvmwiwnwinwnwbvvnosvuavua snovaovuav</p>
+        <div className="mt-16 mx-12">
+            <div className="text-center">
+                <h1 className="font-bold font-Sora text-2xl md:text-3xl lg:text-4xl tracking-wider">About</h1>
+                <p className="mt-2 text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+            </div>
 
-                <div className="grid grid-cols-5 space-x-2 space-y-4 mt-5 items-center">
-                    <div className="col-span-5 lg:col-span-1 space-x-2">
-                        <QAHack
-                            title="WHAT"
-                            subT="information soiaSVNSVUWVHVWVWVUOWVWIOVWVUW VW
-                            SVNVOWINVWVNWVWPWKNVWVI
-                            WOVNWVIWVNWPVNW0VWVPVWWIw"
-                        />
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 mt-10">
+                {aboutData.map((about, index) => (
+                    <div key={index} className="break-words bg-primary/50 p-4">
+                        <div className="font-Sora font-bold text-2xl">{about.title}</div>
+                        <div className="font-semibold text-gray-800 text-justify mt-3">{about.subTitle}</div>
                     </div>
-
-                    <div className="col-span-5 lg:col-span-1 space-x-2">
-                        <QAHack title="WHEN" subT="information soiaw" />
-                    </div>
-
-                    <div className="col-span-5 lg:col-span-1 space-x-2">
-                        <QAHack title="WHO" subT="information soiINVUAVJ AH KJB HB J VEHV w" />
-                    </div>
-
-                    <div className="col-span-5 lg:col-span-1 space-x-2">
-                        <QAHack title="WHY" subT="information soiaw" />
-                    </div>
-
-                    <div className="col-span-5 lg:col-span-1 space-x-2">
-                        <QAHack title="WHERE" subT="information soiaw" />
-                    </div>
-                </div>
+                ))}
             </div>
         </div>
     );

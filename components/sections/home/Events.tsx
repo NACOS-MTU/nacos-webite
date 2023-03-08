@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { BsAwardFill } from "react-icons/bs";
-import HEventCard from "../../cards/HEventCard";
 import { MdOutlineComputer } from "react-icons/md";
 import { AiFillBook } from "react-icons/ai";
 
@@ -18,13 +17,24 @@ export default function Events() {
                 <p className="mt-2 text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
             </div>
 
-            {/* this is the cards section  */}
             <div className="grid grid-cols-1 lg:grid-cols-3 items-center mt-10 lg:space-x-10">
-                <HEventCard subTitle="we organize seminars on physical ans theoretical aspects of computing" title="Seminars / BootCamps" uLink="/" icon={<AiFillBook color="white" />} />
+                {events.map((event, index) => (
+                    <div key={index} className="text-justify hover:cursor-pointer ml-5 rounded-md hover:bg-primary/50 p-6">
+                        <Link href={event.uLink}>
+                            <div>
+                                <div className="bg-primary rounded-sm w-12 h-12 flex items-center px-3 mx-5 text-6xl">
+                                    {event.icon === "AiFillBook" && <AiFillBook color="white" />}
+                                    {event.icon === "BsAwardFill" && <BsAwardFill color="white" />}
+                                    {event.icon === "MdOutlineComputer" && <MdOutlineComputer color="white" />}
+                                </div>
 
-                <HEventCard subTitle="We organize hackathon and competitions for computing students" title="Hackathon" uLink="/Hackathon" icon={<BsAwardFill color="white" />} />
+                                <div className="font-bold font-Sora text-black text-xl mt-3 mb-1">{event.title}</div>
 
-                <HEventCard subTitle="A full Week dedicated for computing students in Mountain Top University" title="Nacos Week" uLink="/" icon={<MdOutlineComputer color="white" />} />
+                                <div className="text-gray-600 text-sm pb-5">{event.subTitle}</div>
+                            </div>
+                        </Link>
+                    </div>
+                ))}
             </div>
         </div>
     );
