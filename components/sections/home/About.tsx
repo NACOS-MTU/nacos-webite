@@ -34,8 +34,8 @@ export default function About() {
                     </div>
                 </div>
 
-                <div className="lg:col-span-1 col-span-2">
-                    <div className="flex justify-center">
+                <div className="lg:col-span-1 col-span-2 hidden lg:block">
+                    <div className="flex justify-center ">
                         <Image src={logo} />
                     </div>
                 </div>
