@@ -18,7 +18,7 @@ const Hackathon: NextPage = () => {
                 <Sponsors />
                 <SpeakersAndJudges />
                 <Prizes />
-                {/* <Faq /> */}
+                <Faq />
             </>
         </DefaultLayout>
     );
