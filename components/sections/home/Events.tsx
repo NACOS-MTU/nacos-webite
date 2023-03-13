@@ -6,7 +6,7 @@ import { AiFillBook } from "react-icons/ai";
 export default function Events() {
     const events = [
         // { title: "Seminars / BootCamps", subTitle: "We organize seminars on physical ans theoretical aspects of computing", uLink: "/", icon: "AiFillBook" },
-        { title: "Hackathon", subTitle: "We organize hackathon and competitions for computing students", uLink: "/hackathon", icon: "BsAwardFill" },
+        { title: "Hackathon", subTitle: "We organize hackathon and competitions for computing students", uLink: "/hackathon/2023", icon: "BsAwardFill" },
         { title: "Nacos Week", subTitle: "A full Week dedicated for computing students in Mountain Top University", uLink: "/", icon: "MdOutlineComputer" }
     ];
 
