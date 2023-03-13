@@ -28,7 +28,7 @@ export default function About() {
                         <div className="flex space-x-4  text-black">
                             <div className="flex items-center space-x-2">
                                 <AiOutlineMail />
-                                <p>info@nacos.com</p>
+                                <p>nacosmtu@mtu.edu.ng</p>
                             </div>
                         </div>
                     </div>

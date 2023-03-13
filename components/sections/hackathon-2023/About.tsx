@@ -1,17 +1,17 @@
 export default function About() {
     const aboutData = [
-        { title: "What", subTitle: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod." },
-        { title: "When", subTitle: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod." },
-        { title: "Who", subTitle: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod." },
-        { title: "Why", subTitle: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod." },
-        { title: "Where", subTitle: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod." }
+        { title: "What", subTitle: "A hybrid hackathon for invited NACOS schools competing in various categories related to the theme." },
+        { title: "When", subTitle: "To be taken place from April whith the finals in July." },
+        { title: "Who", subTitle: "All students from the invited school can participate under their NACOS Chapter  " },
+        { title: "Why", subTitle: "Hackathons can be agreat way for people to learn new skills, collaborate with others, and build something creative in a short period of time." },
+        { title: "Where", subTitle: "This inaugural event will be taken place at Mountain Top University University, Prayer City, Ogun State, Nigeria" }
     ];
 
     return (
         <div className="mt-16 mx-12">
             <div className="text-center">
                 <h1 className="font-bold font-Sora text-2xl md:text-3xl lg:text-4xl tracking-wider">About</h1>
-                <p className="mt-2 text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+                <p className="mt-2 text-lg">NACOS  (Mountain Top University Chapter) will be having their inaugural hackathon named Code Traven Hackathon. Aimed at finding Local solutions to various problems around the World</p>
             </div>
 
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 mt-10">

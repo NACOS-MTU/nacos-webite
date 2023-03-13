@@ -5,19 +5,19 @@ export default function SpeakersAndJudges() {
     const persons = [
         { name: "Logan Paul", role: "CEO", company: "Prime Hydration", image: speaker, link: "https://drinkprime.com/" },
         { name: "Logan Paul", role: "CEO", company: "Prime Hydration", image: speaker, link: "https://drinkprime.com/" },
-        { name: "Logan Paul", role: "CEO", company: "Prime Hydration", image: speaker, link: "https://drinkprime.com/" },
-        { name: "Logan Paul", role: "CEO", company: "Prime Hydration", image: speaker, link: "https://drinkprime.com/" },
-        { name: "Logan Paul", role: "CEO", company: "Prime Hydration", image: speaker, link: "https://drinkprime.com/" },
-        { name: "Logan Paul", role: "CEO", company: "Prime Hydration", image: speaker, link: "https://drinkprime.com/" },
-        { name: "Logan Paul", role: "CEO", company: "Prime Hydration", image: speaker, link: "https://drinkprime.com/" },
-        { name: "Logan Paul", role: "CEO", company: "Prime Hydration", image: speaker, link: "https://drinkprime.com/" }
+        // { name: "Logan Paul", role: "CEO", company: "Prime Hydration", image: speaker, link: "https://drinkprime.com/" },
+        // { name: "Logan Paul", role: "CEO", company: "Prime Hydration", image: speaker, link: "https://drinkprime.com/" },
+        // { name: "Logan Paul", role: "CEO", company: "Prime Hydration", image: speaker, link: "https://drinkprime.com/" },
+        // { name: "Logan Paul", role: "CEO", company: "Prime Hydration", image: speaker, link: "https://drinkprime.com/" },
+        // { name: "Logan Paul", role: "CEO", company: "Prime Hydration", image: speaker, link: "https://drinkprime.com/" },
+        // { name: "Logan Paul", role: "CEO", company: "Prime Hydration", image: speaker, link: "https://drinkprime.com/" }
     ];
 
     return (
         <div className="mt-16 mx-12">
             <div className="text-center">
                 <h1 className="font-bold font-Sora text-2xl md:text-3xl lg:text-4xl tracking-wider">Speakers And Judges</h1>
-                <p className="mt-2 text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+                {/* <p className="mt-2 text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p> */}
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-10 gap-6">

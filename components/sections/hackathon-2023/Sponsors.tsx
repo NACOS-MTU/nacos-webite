@@ -5,15 +5,15 @@ import logo from "../../../public/logo.svg";
 export default function Sponsors() {
     const sponsors = [
         { name: "NACOS", link: "https:example.com/", logo },
-        { name: "NACOS", link: "https:example.com/", logo },
-        { name: "NACOS", link: "https:example.com/", logo }
+        // { name: "NACOS", link: "https:example.com/", logo },
+        // { name: "NACOS", link: "https:example.com/", logo }
     ];
 
     return (
         <div className="mt-16 mx-12">
             <div className="text-center">
                 <h1 className="font-bold font-Sora text-2xl md:text-3xl lg:text-4xl tracking-wider">Sponsors</h1>
-                <p className="mt-2 text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+                {/* <p className="mt-2 text-lg"></p> */}
             </div>
 
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 mt-10">

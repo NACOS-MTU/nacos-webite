@@ -5,7 +5,7 @@ import { AiFillBook } from "react-icons/ai";
 
 export default function Events() {
     const events = [
-        { title: "Seminars / BootCamps", subTitle: "We organize seminars on physical ans theoretical aspects of computing", uLink: "/", icon: "AiFillBook" },
+        // { title: "Seminars / BootCamps", subTitle: "We organize seminars on physical ans theoretical aspects of computing", uLink: "/", icon: "AiFillBook" },
         { title: "Hackathon", subTitle: "We organize hackathon and competitions for computing students", uLink: "/hackathon", icon: "BsAwardFill" },
         { title: "Nacos Week", subTitle: "A full Week dedicated for computing students in Mountain Top University", uLink: "/", icon: "MdOutlineComputer" }
     ];
@@ -14,7 +14,7 @@ export default function Events() {
         <div className="mt-16 mx-12">
             <div className="text-center">
                 <h1 className="font-bold font-Sora text-2xl md:text-3xl lg:text-4xl tracking-wider">Events</h1>
-                <p className="mt-2 text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+                {/* <p className="mt-2 text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p> */}
             </div>
 
             <div className="grid grid-cols-1 lg:grid-cols-3 items-center mt-10 lg:space-x-10">

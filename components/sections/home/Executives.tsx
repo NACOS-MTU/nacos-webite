@@ -3,12 +3,16 @@ import user from "../../../public/user.png";
 
 export default function Executives() {
     const executives = [
-        { name: "Johnny Knoxville", position: "President", image: user, link: "https://example.com" },
-        { name: "Johnny Knoxville", position: "President", image: user, link: "https://example.com" },
-        { name: "Johnny Knoxville", position: "President", image: user, link: "https://example.com" },
-        { name: "Johnny Knoxville", position: "President", image: user, link: "https://example.com" },
-        { name: "Johnny Knoxville", position: "President", image: user, link: "https://example.com" },
-        { name: "Johnny Knoxville", position: "President", image: user, link: "https://example.com" }
+        { name: "Benjamin Ajibade", position: "President", image: user, link: "https://example.com" },
+        { name: "Olatubusun John", position: "Vice-President", image: user, link: "https://example.com" },
+        { name: "Babalola Damisi", position: "Financial Secretary", image: user, link: "https://example.com" },
+        { name: "Ajayi Israel", position: "General Secretary", image: user, link: "https://example.com" },
+        { name: "Merit Mohammed", position: "Assistant General Secretary", image: user, link: "https://example.com" },
+        { name: "Chineye ", position: "Librarian", image: user, link: "https://example.com" },
+        { name: "??", position: "Assistant Librarian", image: user, link: "https://example.com" },
+        { name: "Kuboye Katete", position: "Public Relations Officer", image: user, link: "https://example.com" },
+        { name: "Julo", position: "Director of Socials", image: user, link: "https://example.com" },
+        { name: "Kemi Sarah", position: "Director of Sports", image: user, link: "https://example.com" }
     ];
 
     return (
