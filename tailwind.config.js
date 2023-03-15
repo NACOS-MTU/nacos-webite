@@ -4,7 +4,7 @@ module.exports = {
     theme: {
         extend: {
             backgroundImage: (theme) => ({
-                heroBg: "url('/hero-bg.jpg')"
+                heroBg: "url('/school-bg.jpg')"
             }),
             fontFamily: {
                 Poppins: ["Poppins", "sans-serif"],

@@ -9,26 +9,26 @@ export default function Faq() {
             question: "What is a hackathon?",
             answer: "A hackathon is a 24-hour event where students come together to create a project from scratch. The goal is to create a project that solves a problem in the community."
         },
-        {
-            question: "What is a hackathon?",
-            answer: "A hackathon is a 24-hour event where students come together to create a project from scratch. The goal is to create a project that solves a problem in the community."
-        },
-        {
-            question: "What is a hackathon?",
-            answer: "A hackathon is a 24-hour event where students come together to create a project from scratch. The goal is to create a project that solves a problem in the community."
-        },
-        {
-            question: "What is a hackathon?",
-            answer: "A hackathon is a 24-hour event where students come together to create a project from scratch. The goal is to create a project that solves a problem in the community."
-        },
-        {
-            question: "What is a hackathon?",
-            answer: "A hackathon is a 24-hour event where students come together to create a project from scratch. The goal is to create a project that solves a problem in the community."
-        },
-        {
-            question: "What is a hackathon?",
-            answer: "A hackathon is a 24-hour event where students come together to create a project from scratch. The goal is to create a project that solves a problem in the community."
-        }
+        // {
+        //     question: "What is a hackathon?",
+        //     answer: "A hackathon is a 24-hour event where students come together to create a project from scratch. The goal is to create a project that solves a problem in the community."
+        // },
+        // {
+        //     question: "What is a hackathon?",
+        //     answer: "A hackathon is a 24-hour event where students come together to create a project from scratch. The goal is to create a project that solves a problem in the community."
+        // },
+        // {
+        //     question: "What is a hackathon?",
+        //     answer: "A hackathon is a 24-hour event where students come together to create a project from scratch. The goal is to create a project that solves a problem in the community."
+        // },
+        // {
+        //     question: "What is a hackathon?",
+        //     answer: "A hackathon is a 24-hour event where students come together to create a project from scratch. The goal is to create a project that solves a problem in the community."
+        // },
+        // {
+        //     question: "What is a hackathon?",
+        //     answer: "A hackathon is a 24-hour event where students come together to create a project from scratch. The goal is to create a project that solves a problem in the community."
+        // }
     ];
 
     return (

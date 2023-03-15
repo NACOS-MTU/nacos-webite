@@ -2,7 +2,7 @@ export default function About() {
     const aboutData = [
         { title: "What", subTitle: "A hybrid hackathon for invited NACOS schools competing in various categories related to the theme." },
         { title: "When", subTitle: "To be taken place from April whith the finals in July." },
-        { title: "Who", subTitle: "All students from the invited school can participate under their NACOS Chapter  " },
+        { title: "Who", subTitle: "All students from the invited school can participate under their  respective NACOS Chapter  " },
         { title: "Why", subTitle: "Hackathons can be agreat way for people to learn new skills, collaborate with others, and build something creative in a short period of time." },
         { title: "Where", subTitle: "This inaugural event will be taken place at Mountain Top University University, Prayer City, Ogun State, Nigeria" }
     ];

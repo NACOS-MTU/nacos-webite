@@ -3,8 +3,8 @@ import speaker from "../../../public/user.png";
 
 export default function SpeakersAndJudges() {
     const persons = [
-        { name: "Logan Paul", role: "CEO", company: "Prime Hydration", image: speaker, link: "https://drinkprime.com/" },
-        { name: "Logan Paul", role: "CEO", company: "Prime Hydration", image: speaker, link: "https://drinkprime.com/" },
+        { name: "Dr Jeremiah Balogun", role: "Lecturer", company: "Mountain Top University", image: speaker, link: "https://drinkprime.com/" },
+        // { name: "Logan Paul", role: "CEO", company: "Prime Hydration", image: speaker, link: "https://drinkprime.com/" },
         // { name: "Logan Paul", role: "CEO", company: "Prime Hydration", image: speaker, link: "https://drinkprime.com/" },
         // { name: "Logan Paul", role: "CEO", company: "Prime Hydration", image: speaker, link: "https://drinkprime.com/" },
         // { name: "Logan Paul", role: "CEO", company: "Prime Hydration", image: speaker, link: "https://drinkprime.com/" },

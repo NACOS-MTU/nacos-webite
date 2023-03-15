@@ -1,8 +1,8 @@
 export default function Prizes() {
     const prizes = [
-        { position: "1", sub: "st", prize: "NGN 250,000" },
-        { position: "2", sub: "nd", prize: "NGN 150,000" },
-        { position: "3", sub: "rd", prize: "NGN 100,000" }
+        { position: "1", sub: "st", prize: "To be Deicided" },
+        { position: "2", sub: "nd", prize: "To be Deicided" },
+        { position: "3", sub: "rd", prize: "To be Deicided" }
     ];
 
     return (
