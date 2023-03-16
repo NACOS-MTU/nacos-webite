@@ -22,7 +22,7 @@ export default function SpeakersAndJudges() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-10 gap-6">
                 {persons.map((person, index) => (
-                    <div key={index} className="bg-white rounded-sm shadow-lg p-3 hover:bg-primary/50">
+                <div key={index} className="bg-white rounded-sm shadow-lg p-3 hover:bg-primary/50">
                         <div className="overflow-hidden">
                             <Image className="rounded-sm" src={person.image} alt={person.name} />
                         </div>

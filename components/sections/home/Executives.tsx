@@ -19,7 +19,7 @@ export default function Executives() {
         <div className="mt-16 mx-12 mb-10">
             <div className="text-center">
                 <h1 className="font-bold font-Sora text-2xl md:text-3xl lg:text-4xl tracking-wider">Executive Members</h1>
-                <p className="mt-2 text-lg">NACOS (MTU chapter) Executives for 2022/23 session</p>
+                <p className="mt-2 text-lg">NACOS (Mountain Top University Chapter) Executives for 2022/23 session</p>
             </div>
 
             <div className="grid grid-cols-1 lg:grid-cols-3 mt-10 gap-6">

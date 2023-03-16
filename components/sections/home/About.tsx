@@ -9,11 +9,11 @@ export default function About() {
             <div className="grid grid-cols-2 items-center">
                 <div className="lg:col-span-1 col-span-2">
                     <p className="text-primary font-semibold">About Us</p>
-                    <h1 className="text-black font-bold font-Sora text-2xl md:text-3xl lg:text-4xl my-2">N.A.C.O.S (MTU Chapter)</h1>
+                    <h1 className="text-black font-bold font-Sora text-2xl md:text-3xl lg:text-4xl my-2">NACOS (MTU Chapter)</h1>
                     <p className="h-1 w-28 rounded-md  bg-primary" />
 
                     <p className="pt-3 text-justify font-gray-700">
-                        Nigerian Association of computing Students (Nacos) is the umbrella body for students studying computer science , computing engineering, information systems, cyber security,
+                        Nigerian Association of Computing Students (NACOS) is the umbrella body for students studying computer science , computing engineering, information systems, cyber security,
                         software engineering, telecommunications engineering and all IT-related courses in Nigeria and have been in existence for over two decades and Nacos can boast of its presence
                         in almost all tertiary institution in Nigeria(including privately owned ones).
                     </p>
