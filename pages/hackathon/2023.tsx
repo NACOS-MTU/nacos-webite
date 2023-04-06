@@ -8,6 +8,7 @@ import About from "../../components/sections/hackathon-2023/About";
 import Prizes from "../../components/sections/hackathon-2023/Prizes";
 import Sponsors from "../../components/sections/hackathon-2023/Sponsors";
 import SpeakersAndJudges from "../../components/sections/hackathon-2023/Speakers-Judges";
+import Stages from "../../components/sections/hackathon-2023/Stages";
 
 const Hackathon: NextPage = () => {
     return (
@@ -15,6 +16,7 @@ const Hackathon: NextPage = () => {
             <>
                 <Hero />
                 <About />
+                <Stages/>
                 <Sponsors />
                 <SpeakersAndJudges />
                 <Prizes />
