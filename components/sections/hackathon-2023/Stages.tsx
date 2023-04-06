@@ -1,21 +1,14 @@
 export default function Stages() {
-
-
     const aboutData = [
         { title: "Stage 1", subTitle: "Participants much register within the given time period  for one of more of the following topics, Fintech, Civic-tech, Ed-tech, Healthcare" },
-        { title: "Stage 2", subTitle: "Idea stage (Virtual presentation) ideas are presented virtually, using a 5 minutes long video explaining the idea and explaining the concept, stating what they want to do and why" },
-        { title: "Stage 3", subTitle: "Pitch Deck( this is for the proposal) and submission of mock-up and prototypes." },
-        { title: "Stage 4", subTitle: "Onsite Presentation of the mvp of the ideas and talks" },
-        
+        {
+            title: "Stage 2",
+            subTitle:
+                "Idea stage (Virtual presentation) ideas are presented virtually, using a 5 minutes long video explaining the idea and explaining the concept, stating what they want to do and why"
+        },
+        { title: "Stage 3", subTitle: "Pitch Deck (this is for the proposal) and submission of mock-up and prototypes." },
+        { title: "Stage 4", subTitle: "Onsite Presentation of the mvp of the ideas and talks" }
     ];
-
-
-
-
-
-
-
-
 
     return (
         <div className="mt-16 mx-12">
@@ -33,5 +26,5 @@ export default function Stages() {
                 ))}
             </div>
         </div>
-    )
+    );
 }

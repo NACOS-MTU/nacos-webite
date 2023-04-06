@@ -17,18 +17,20 @@ export default function Events() {
                 {/* <p className="mt-2 text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p> */}
             </div>
 
-            <div className="grid grid-cols-1 lg:grid-cols-3 items-center mt-10 lg:space-x-10">
+            <div className="grid grid-cols-1 lg:grid-cols-2 items-center mt-10 lg:space-x-10">
                 {events.map((event, index) => (
                     <div key={index} className="text-justify hover:cursor-pointer ml-5 rounded-md hover:bg-primary/50 p-6">
                         <Link href={event.uLink}>
                             <div>
-                                <div className="bg-primary rounded-sm w-16 h-16 flex items-center px-3 text-6xl">
-                                    {event.icon === "AiFillBook" && <AiFillBook color="white" />}
-                                    {event.icon === "BsAwardFill" && <BsAwardFill color="white" />}
-                                    {event.icon === "MdOutlineComputer" && <MdOutlineComputer color="white" />}
+                                <div className="flex items-center justify-center">
+                                    <div className="bg-primary rounded-sm w-20 h-20 flex items-center p-3 text-8xl">
+                                        {event.icon === "AiFillBook" && <AiFillBook color="white" />}
+                                        {event.icon === "BsAwardFill" && <BsAwardFill color="white" />}
+                                        {event.icon === "MdOutlineComputer" && <MdOutlineComputer color="white" />}
+                                    </div>
                                 </div>
 
-                                <div className="font-bold font-Sora text-black text-xl mt-6 tracking-wider mb-1">{event.title}</div>
+                                <div className="font-bold font-Sora text-black text-xl mt-6 tracking-wider mb-1 text-center">{event.title}</div>
 
                                 <div className="text-gray-600 text-justify">{event.subTitle}</div>
                             </div>

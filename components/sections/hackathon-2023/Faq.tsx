@@ -12,7 +12,7 @@ export default function Faq() {
         {
             question: "What is are the topics under consideration",
             answer: "Participants must provide solutions for one of more of the following topics, Fintech, Civic-tech, Ed-tech, Healthcare"
-        },
+        }
         // {
         //     question: "What is a hackathon?",
         //     answer: "A hackathon is a 24-hour event where students come together to create a project from scratch. The goal is to create a project that solves a problem in the community."

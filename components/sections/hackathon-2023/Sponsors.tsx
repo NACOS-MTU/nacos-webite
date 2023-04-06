@@ -4,7 +4,7 @@ import logo from "../../../public/logo.svg";
 
 export default function Sponsors() {
     const sponsors = [
-        { name: "NACOS", link: "https:example.com/", logo },
+        { name: "NACOS", link: "https:example.com/", logo }
         // { name: "NACOS", link: "https:example.com/", logo },
         // { name: "NACOS", link: "https:example.com/", logo }
     ];
@@ -18,11 +18,7 @@ export default function Sponsors() {
 
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 mt-10">
                 {sponsors.map((sponsor, index) => (
-                    <button 
-                        key={index} 
-                        className="break-words p-6 hover:bg-gray-100 rounded-sm"
-                        onClick={() => window.open(sponsor.link, "_blank")}
-                    >
+                    <button key={index} className="break-words p-6 hover:bg-gray-100 rounded-sm" onClick={() => window.open(sponsor.link, "_blank")}>
                         <div className="flex justify-center w-full">
                             <div className="w-3/4">
                                 <Image src={sponsor.logo} alt={sponsor.name} />
